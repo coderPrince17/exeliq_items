@@ -1,0 +1,109 @@
+{
+ "creation": "2026-10-15 15:00:00.000000",
+ "custom": 0,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "default_company",
+  "default_warehouse",
+  "column_break_a",
+  "similarity_threshold",
+  "section_series",
+  "code_series",
+  "types_seeded"
+ ],
+ "fields": [
+  {
+   "fieldname": "default_company",
+   "fieldtype": "Link",
+   "label": "Default Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "default_warehouse",
+   "fieldtype": "Link",
+   "label": "Default Warehouse",
+   "options": "Warehouse"
+  },
+  {
+   "fieldname": "column_break_a",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "88",
+   "description": "Names at least this similar to an existing item are shown as warnings",
+   "fieldname": "similarity_threshold",
+   "fieldtype": "Percent",
+   "label": "Similar-Name Warning Threshold"
+  },
+  {
+   "fieldname": "section_series",
+   "fieldtype": "Section Break",
+   "label": "Item Code Series"
+  },
+  {
+   "description": "Next code = prefix + (highest existing number + 1)",
+   "fieldname": "code_series",
+   "fieldtype": "Table",
+   "label": "Item Code Series",
+   "options": "Item Code Series"
+  },
+  {
+   "default": "0",
+   "fieldname": "types_seeded",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Item Types Seeded",
+   "read_only": 1
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-10-15 15:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Exeliq Items",
+ "name": "Exeliq Item Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Item Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Stock Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

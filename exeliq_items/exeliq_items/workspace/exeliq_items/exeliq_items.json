@@ -1,0 +1,31 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"exlhdr001\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Item Creation</b></span>\", \"col\": 12}}, {\"id\": \"exlsc0001\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"New Item\", \"col\": 3}}, {\"id\": \"exlsc0002\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Item Types\", \"col\": 3}}, {\"id\": \"exlsc0003\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Items\", \"col\": 3}}, {\"id\": \"exlsc0004\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Settings\", \"col\": 3}}]",
+ "creation": "2026-10-15 15:30:00.000000",
+ "custom_blocks": [],
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "list",
+ "is_hidden": 0,
+ "label": "Exeliq Items",
+ "links": [],
+ "modified": "2026-10-15 15:30:00.000000",
+ "modified_by": "Administrator",
+ "module": "Exeliq Items",
+ "name": "Exeliq Items",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 30.0,
+ "shortcuts": [
+  {"color": "Blue", "doc_view": "", "label": "New Item", "link_to": "item-creator", "type": "Page"},
+  {"color": "Grey", "doc_view": "List", "label": "Item Types", "link_to": "Item Type", "type": "DocType"},
+  {"color": "Grey", "doc_view": "List", "label": "Items", "link_to": "Item", "type": "DocType"},
+  {"color": "Grey", "doc_view": "", "label": "Settings", "link_to": "Exeliq Item Settings", "type": "DocType"}
+ ],
+ "title": "Exeliq Items"
+}

@@ -1,0 +1,1073 @@
+[
+ {
+  "item_type_name": "Screws",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Drive Type",
+   "Head Type",
+   "Size (MxL)",
+   "Material"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Nuts",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Nut Type",
+   "Size",
+   "Material"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Washer",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Washer Type",
+   "Material",
+   "Size"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Wire",
+  "make_required": 1,
+  "model_mode": "No",
+  "parameters": [
+   "Size (sqmm)",
+   "Cores",
+   "Colour"
+  ],
+  "default_uom": "Meter",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Cable",
+  "make_required": 0,
+  "model_mode": "Optional",
+  "parameters": [
+   "Cable Type",
+   "Spec",
+   "Length"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "USB Cable",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Connector A to B",
+   "Pins",
+   "Length"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Power Cord",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Plug Type",
+   "Length"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Connector",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Series",
+   "Pins",
+   "Voltage",
+   "Current",
+   "Gender & Mount"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Power Connector",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Current",
+   "Pins",
+   "Gender & Mount"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Battery Connectors",
+  "make_required": 1,
+  "model_mode": "No",
+  "parameters": [
+   "Current",
+   "Voltage"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "AC Connectors",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Rating",
+   "Gender"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Banana Connector",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Size",
+   "Plug/Socket",
+   "Gender",
+   "Colour"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Thimble",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Size",
+   "Type"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Ferrule",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Size"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Gland",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Size"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Cable Tie",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Length",
+   "Width"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Electrical Tape",
+  "make_required": 1,
+  "model_mode": "No",
+  "parameters": [
+   "Colour"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Terminal Block",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Size",
+   "Colour",
+   "Current",
+   "Voltage"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "MCB",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Current",
+   "Poles"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "MCCB",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Current",
+   "Poles",
+   "Breaking Capacity"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "RCCB",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Current",
+   "Poles",
+   "Sensitivity"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Circuit Breaker",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Series",
+   "Current",
+   "Poles",
+   "Breaking Capacity"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Contactor",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Coil Voltage",
+   "Current",
+   "Poles"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Overload Relay",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Current Range"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "DC Relay",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Contacts",
+   "Coil Voltage",
+   "Current",
+   "Base"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "HVDC Relay",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Voltage",
+   "Current",
+   "Coil Voltage"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Relay Card",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Channels",
+   "Contacts",
+   "Coil Voltage"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "USB Relay Module",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Channels",
+   "Voltage"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Relay Driver Card (RDC)",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Channels"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "SPD",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Voltage"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Pilot Lamp",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Voltage",
+   "Colour"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Push Button",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Colour",
+   "Type"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Push Button Station",
+  "make_required": 0,
+  "model_mode": "Optional",
+  "parameters": [
+   "Ways"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Push Button Box",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Ways",
+   "Material"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Selector Switch",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Positions"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Rotary Switch",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Current",
+   "Poles",
+   "Ways"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Switch",
+  "make_required": 1,
+  "model_mode": "No",
+  "parameters": [
+   "Current",
+   "Ways"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Combo Box",
+  "make_required": 1,
+  "model_mode": "No",
+  "parameters": [
+   "Current",
+   "Voltage",
+   "Configuration"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Energy Meter",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Type"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Power Meter",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Channels"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Voltage Transducer",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "AC/DC",
+   "Input Range",
+   "Output"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Current Transducer",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "AC/DC",
+   "Input Range",
+   "Output"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Shunt",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Current",
+   "Output (mV)"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Transformer",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Rating",
+   "Phase",
+   "Winding Material"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Capacitor",
+  "make_required": 0,
+  "model_mode": "Optional",
+  "parameters": [
+   "Capacitance",
+   "Voltage",
+   "Type"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Bus Bar",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Material",
+   "Current"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "DC Power Supply",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Output Voltage",
+   "Output Current"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Power Supply Unit",
+  "make_required": 0,
+  "model_mode": "Optional",
+  "parameters": [
+   "Output Voltage",
+   "Output Current",
+   "Type"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Power Supply Mounting",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Programmable DC Power Supply",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Voltage",
+   "Current",
+   "Power"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Programmable AC Power Supply",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Power",
+   "Current",
+   "Voltage Range"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Programmable DC Bidirectional Power Supply",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Voltage",
+   "Current",
+   "Power"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Regenerative AC Grid Simulator",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Power"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Programmable Resistive Load",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Power",
+   "Voltage",
+   "Phase"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Programmable Hipot Tester",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "DAQ",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Interface"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "NI PXIe",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Part Number"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "NI Cable",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Cable Type",
+   "Part Number",
+   "Length"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Breakout Board",
+  "make_required": 0,
+  "model_mode": "Optional",
+  "parameters": [
+   "Pins",
+   "Type"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Panel",
+  "make_required": 0,
+  "model_mode": "Optional",
+  "parameters": [
+   "Size (WxHxD)"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Junction Box",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Size"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Distribution Box",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Type",
+   "Size"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "PVC Duct",
+  "make_required": 1,
+  "model_mode": "No",
+  "parameters": [
+   "Size",
+   "Length"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "PVC Duct with Cover",
+  "make_required": 1,
+  "model_mode": "No",
+  "parameters": [
+   "Size"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Fan Filter",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Size"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Exhaust Fan",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Size",
+   "Voltage"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Panel LED",
+  "make_required": 1,
+  "model_mode": "No",
+  "parameters": [
+   "Size",
+   "Wattage"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Network Switch",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Ports"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Display",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Size",
+   "Resolution"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Laptop",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Processor",
+   "RAM",
+   "Storage",
+   "GPU"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "RAM",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Capacity",
+   "Type",
+   "Form Factor"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "SSD",
+  "make_required": 1,
+  "model_mode": "Optional",
+  "parameters": [
+   "Capacity"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Mouse",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Keyboard",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Printer",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Printer Type"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Barcode Scanner",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Wired/Wireless"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Allen Key",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Size"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "Consumables",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Screw Driver",
+  "make_required": 1,
+  "model_mode": "Required",
+  "parameters": [
+   "Tip Size"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "Consumables",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Drill Bit",
+  "make_required": 0,
+  "model_mode": "No",
+  "parameters": [
+   "Material",
+   "Size"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "Consumables",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Label Tape Cassette",
+  "make_required": 1,
+  "model_mode": "No",
+  "parameters": [
+   "Colour",
+   "Width x Length"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "Consumables",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "3D Filament",
+  "make_required": 1,
+  "model_mode": "No",
+  "parameters": [
+   "Material & Colour"
+  ],
+  "default_uom": "Kg",
+  "default_item_group": "COTS",
+  "ask_type_name": 0,
+  "mandatory": 1
+ },
+ {
+  "item_type_name": "Other",
+  "make_required": 0,
+  "model_mode": "Optional",
+  "parameters": [
+   "Parameter 1",
+   "Parameter 2",
+   "Parameter 3",
+   "Parameter 4"
+  ],
+  "default_uom": "Nos",
+  "default_item_group": "COTS",
+  "ask_type_name": 1,
+  "mandatory": 0
+ }
+]

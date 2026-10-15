@@ -1,0 +1,223 @@
+{
+ "autoname": "field:item_type_name",
+ "creation": "2026-10-15 15:00:00.000000",
+ "custom": 0,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "item_type_name",
+  "disabled",
+  "column_break_a",
+  "default_item_group",
+  "default_uom",
+  "section_structure",
+  "make_required",
+  "ask_type_name",
+  "column_break_b",
+  "model_mode",
+  "section_params",
+  "parameters",
+  "format_preview",
+  "section_notes",
+  "notes"
+ ],
+ "fields": [
+  {
+   "description": "Written at the start of every name, exactly as typed here (e.g. MCB, DC Power Supply)",
+   "fieldname": "item_type_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Item Type",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Disabled"
+  },
+  {
+   "fieldname": "column_break_a",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "default_item_group",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Default Item Group",
+   "options": "Item Group"
+  },
+  {
+   "fieldname": "default_uom",
+   "fieldtype": "Link",
+   "label": "Default UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "section_structure",
+   "fieldtype": "Section Break",
+   "label": "Name Structure"
+  },
+  {
+   "default": "0",
+   "description": "If unticked, Brand can be GENERIC and the Make is left out of the name",
+   "fieldname": "make_required",
+   "fieldtype": "Check",
+   "label": "Make (Brand) Required"
+  },
+  {
+   "default": "0",
+   "description": "For catch-all types like 'Other': the user enters the real type (e.g. Oscilloscope) and it is used in the name",
+   "fieldname": "ask_type_name",
+   "fieldtype": "Check",
+   "label": "User Types the Type Name"
+  },
+  {
+   "fieldname": "column_break_b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Optional",
+   "description": "No = this type never has a model / part number",
+   "fieldname": "model_mode",
+   "fieldtype": "Select",
+   "label": "Model",
+   "options": "Required\nOptional\nNo"
+  },
+  {
+   "fieldname": "section_params",
+   "fieldtype": "Section Break",
+   "label": "Parameters"
+  },
+  {
+   "description": "In the order they should appear in the name",
+   "fieldname": "parameters",
+   "fieldtype": "Table",
+   "label": "Parameters",
+   "options": "Item Type Parameter"
+  },
+  {
+   "bold": 1,
+   "fieldname": "format_preview",
+   "fieldtype": "Data",
+   "label": "Name Format",
+   "read_only": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_notes",
+   "fieldtype": "Section Break",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "links": [],
+ "modified": "2026-10-15 15:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Exeliq Items",
+ "name": "Item Type",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Item Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Stock Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Stock User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 0,
+   "delete": 0,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1,
+   "write": 0
+  }
+ ],
+ "quick_entry": 0,
+ "search_fields": "item_type_name",
+ "show_title_field_in_link": 0,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "item_type_name",
+ "track_changes": 1
+}

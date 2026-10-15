@@ -1,0 +1,34 @@
+{
+ "creation": "2026-10-15 15:00:00.000000",
+ "doctype": "Page",
+ "icon": "",
+ "modified": "2026-10-15 15:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Exeliq Items",
+ "name": "item-creator",
+ "owner": "Administrator",
+ "page_name": "item-creator",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Item Manager"
+  },
+  {
+   "role": "Stock Manager"
+  },
+  {
+   "role": "Stock User"
+  },
+  {
+   "role": "Purchase Manager"
+  },
+  {
+   "role": "Purchase User"
+  }
+ ],
+ "standard": "Yes",
+ "system_page": 0,
+ "title": "New Item"
+}
