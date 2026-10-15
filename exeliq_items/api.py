@@ -294,4 +294,15 @@ def create_item(data, override_reason=None):
     item.item_code = code
     item.insert()
 
+    if result["warnings"] and override_reason:
+        similar = ", ".join(
+            "{0} ({1})".format(w["item_code"], w["item_name"]) for w in result["warnings"]
+        )
+        item.add_comment(
+            "Comment",
+            _("Created despite similar items: {0}<br><b>Reason:</b> {1}").format(
+                frappe.utils.escape_html(similar), frappe.utils.escape_html(override_reason)
+            ),
+        )
+
     return {"item_code": item.name, "item_name": item.item_name}
